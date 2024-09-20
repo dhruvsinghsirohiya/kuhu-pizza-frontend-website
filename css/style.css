@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.nav-font{
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
+/* Add this to your style.css */
+@keyframes slideInFromRight {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1.;
+    }
+}
+
+@keyframes slideOutToRight {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.nav-items {
+    animation: slideInFromRight 1s forwards;
+}
+
+.nav-items-hidden {
+    animation: slideOutToRight 1s forwards;
+}
+
+
+
