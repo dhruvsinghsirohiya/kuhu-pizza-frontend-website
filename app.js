@@ -18,13 +18,10 @@ const handleScroll = () => {
     } else {
    
         navLogo.classList.remove("w-[100px]");
-        navLogo.classList.add("w-[140px]");
         navMain.classList.remove("shadow");
         navMain.classList.remove("bg-white");
         navMain.classList.add("bg-transparent");
-
-
-
+        navLogo.classList.add("w-[140px]");
     }
   };
 
@@ -59,5 +56,5 @@ searchClose.addEventListener("click", () => {
     setTimeout(() => {
         searchTrigger.classList.remove("block");
         searchTrigger.classList.add("hidden");
-    }, 500);
+    }, 1000);
 });
