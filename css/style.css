@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+*{
+    scroll-behavior: smooth;
+}
 
-.nav-font{
+body{
     font-family: "Montserrat", sans-serif;
+
 }
 
 
@@ -34,5 +38,9 @@
     animation: slideOutToRight 1s forwards;
 }
 
+
+.clip-half-circle {
+    clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 50% 100%);
+  }
 
 

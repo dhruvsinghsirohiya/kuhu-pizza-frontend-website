@@ -9,18 +9,14 @@ const searchClose = document.getElementById("search-close");
 const searchTrigger = document.getElementById("search-trigger");
 
 const handleScroll = () => {
-    if (window.scrollY > 50) {
+    if (window.scrollY > 1) {
         navLogo.classList.remove("w-[140px]");
         navMain.classList.add("shadow");
-        navMain.classList.remove("bg-transparent");
-        navMain.classList.add("bg-white");
         navLogo.classList.add("w-[100px]");
     } else {
    
         navLogo.classList.remove("w-[100px]");
         navMain.classList.remove("shadow");
-        navMain.classList.remove("bg-white");
-        navMain.classList.add("bg-transparent");
         navLogo.classList.add("w-[140px]");
     }
   };
