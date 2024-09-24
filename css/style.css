@@ -6,7 +6,6 @@
 
 body{
     font-family: "Montserrat", sans-serif;
-
 }
 
 
@@ -38,9 +37,5 @@ body{
     animation: slideOutToRight 1s forwards;
 }
 
-
-.clip-half-circle {
-    clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 50% 100%);
-  }
 
 
