@@ -122,7 +122,7 @@
           <div class="block text-[24px] lg:hidden">
             <i
               id="menu-open"
-              class="fa-solid hover:text-[#f22e3e] text-black fa-bars cursor-pointer"
+              class="fa-solid hover:text-[#f22e3e] pr-2 text-black fa-bars cursor-pointer"
             ></i>
           </div>
         </div>
@@ -131,35 +131,37 @@
     <!-- Navbar Start -->
     <!-- Home Banner Part-1 Start -->
     <section
-      class="lg:h-[80vh] px-5 lg:px-0 py-10 lg:py-0 xl:h-[115vh] w-full block lg:flex justify-between items-center"
+      class="lg:h-[80vh] px-5 lg:px-0 mt-8 sm:mt-0 sm:py-10 lg:py-0 xl:h-[115vh] w-full block lg:flex justify-between items-center"
     >
       <div
         class="lg:w-[50%] w-full flex lg:block flex-col items-center lg:px-[3rem] xl:px-[6rem]"
       >
         <h1
-          class="text-[40px] lg:text-[54px] xl:text-[64px] lg:text-left text-center font-bold xl:leading-[4.3rem] leading-[3.5rem] lg:leading-[4rem] tracking-tight xl:tracking-normal"
+          class="text-[30px] sm:text-[40px] lg:text-[54px] xl:text-[64px] lg:text-left text-center font-bold xl:leading-[4.3rem] sm:leading-[3.5rem] lg:leading-[4rem] tracking-tight xl:tracking-normal"
         >
           Handmade, With an Extra Pinch of
           <span class="text-[#f22e3e]">Love</span>
         </h1>
         <h5
-          class="text-[18px] lg:text-[20px] lg:text-left text-center xl:text-[24px] text-[#777] xl:tracking-tighter font-[500] leading-[1.5] my-4 lg:my-8"
+          class="sm:text-[18px] text-[15px] lg:text-[20px] lg:text-left text-center xl:text-[24px] text-[#777] xl:tracking-tighter font-[500] leading-[22px] sm:leading-[1.5] my-4 lg:my-8"
         >
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry.
         </h5>
-        <a
-          href="Shop.html"
-          class="uppercase w-[300px] text-white text-[18px] lg:text-[20px] xl:text-[24px] font-[600] rounded-full flex justify-center items-center gap-3 py-3 bg-[#fbb200]"
-          ><i class="fa-brands fa-opencart"></i> <span>Order Now</span></a
-        >
+        <button>
+          <a
+            href="Shop.html"
+            class="flex justify-center gap-1.5 rounded-full text-white text-[16px] lg:text-[20px] font-semibold px-7 py-3.5 uppercase bg-[#fbb200] items-center duration-300 hover:bg-[#f22e3e]"
+            ><i class="fa-brands fa-opencart"></i> <span>Order Now</span></a
+          >
+        </button>
       </div>
       <div
         class="lg:w-[50%] overflow-hidden mt-0 w-[full] flex justify-center lg:block lg:relative h-full"
       >
         <img
           src="images/homeImages/banner-img.png"
-          class="z-[66] lg:p-0 p-7 cursor-pointer lg:absolute lg:w-[55%] xl:w-[70%] left-24 top-16 xl:left-0 xl:top-10"
+          class="z-[66] lg:p-0 p-4 sm:p-8 cursor-pointer lg:absolute lg:w-[55%] xl:w-[70%] left-24 top-16 xl:left-0 xl:top-10"
           alt=""
         />
         <img
@@ -187,19 +189,21 @@
     <!-- Home Banner Part-2 Start -->
     <section class="w-full">
       <div
-        class="flex items-center md:py-0 lg:relative justify-start md:w-[90%] gap-24"
+        class="flex items-center md:py-0 lg:relative justify-start mx-auto w-[90%] gap-24"
       >
         <img
           src="images/homeImages/daily-fresh.png"
           class="md:block hidden w-[40%]"
           alt=""
         />
-        <div class="flex flex-col gap-4">
-          <h1 class="text-[28px] text-center md:text-left font-semibold">
+        <div class="flex flex-col gap-2 sm:gap-4">
+          <h1
+            class="text-[21px] sm:text-[28px] text-center md:text-left font-semibold"
+          >
             Daily fresh and always tasty
           </h1>
           <p
-            class="text-[#777] text-center md:text-left text-[18px] font-[500] px-10 md:pl-0 md:pr-16 lg:pr-32"
+            class="text-[#777] text-center md:text-left md:text-[18px] text-[15px] font-[500]"
           >
             There are many variations of passages of Lorem Ipsum available, but
             the majority haved
@@ -216,14 +220,16 @@
     <!-- Home Banner Part-2 End -->
     <!-- Popular Dishes Start -->
     <section class="w-full">
-      <div class="w-[95%] my-24 mx-auto">
-        <div class="flex gap-4 py-2.5 justify-start items-center">
+      <div class="w-[95%] my-2 mt-10 lg:my-24 mx-auto">
+        <div class="flex gap-4 lg:py-2.5 justify-start items-center">
           <h4 class="text-[22px] text-[#f22e3e] font-semibold">
             Popular Dishes
           </h4>
           <div class="border py-0 px-10 border-[#f22e3e]"></div>
         </div>
-        <h1 class="text-[40px] leading-[55px] font-[700]">Browse Our Menu</h1>
+        <h1 class="text-[25px] lg:text-[40px] leading-[55px] font-[700]">
+          Browse Our Menu
+        </h1>
         <div class="relative lg:block hidden py-10 mt-5">
           <swiper-container
             class="mySwiper"
@@ -374,7 +380,7 @@
             </swiper-slide>
           </swiper-container>
         </div>
-        <div class="relative lg:hidden hidden md:block py-10 mt-5">
+        <div class="relative lg:hidden hidden md:block py-10 mt-0 lg:mt-5">
           <swiper-container
             class="mySwiper"
             autoplay-delay="2500"
@@ -541,200 +547,204 @@
             </swiper-slide>
           </swiper-container>
         </div>
-        <div class="relative md:hidden block py-10 mt-5">
-            <swiper-container
-              class="mySwiper"
-              autoplay-delay="2500"
-              autoplay-disable-on-interaction="false"
-              space-between="30"
-              slides-per-view="1"
+        <div class="relative md:hidden block py-5 lg:py-10 mt-0 lg:mt-5">
+          <swiper-container
+            class="mySwiper"
+            autoplay-delay="2500"
+            autoplay-disable-on-interaction="false"
+            space-between="30"
+            slides-per-view="1"
+          >
+            <swiper-slide
+              class="border-2 rounded-xl sm:rounded-3xl cursor-pointer flex items-center py-5 sm:py-10 flex-col"
             >
-              <swiper-slide
-                class="border-2 rounded-xl sm:rounded-3xl cursor-pointer flex items-center py-5 sm:py-10 flex-col"
-              >
-                <div class="sm:w-[80%] w-[90%]">
-                  <img
-                    src="images/popolarDishes/pizza-1.png"
-                    class="w-full"
-                    alt=""
-                  />
-                  <div
-                    class="flex sm:text-[22px] text-[16px] sm:mt-4 mt-2 font-semibold justify-between"
-                  >
-                    <h5 class="text-[#111111]">Shrimp Pizza</h5>
-                    <h5 class="text-[#f22e3e]">$35.00</h5>
-                  </div>
-                  <div class="sm:my-4 my-2">
-                    <i class="fa-solid fa-star text-[#fbb200] text-[14px]"></i>
-                    <i class="fa-solid fa-star text-[#fbb200] text-[14px]"></i>
-                    <i class="fa-solid fa-star text-[#fbb200] text-[14px]"></i>
-                    <i class="fa-solid fa-star text-[#fbb200] text-[14px]"></i>
-                    <i class="fa-solid fa-star text-[#fbb200] text-[14px]"></i>
-                  </div>
-                  <p
-                    class="text-left text-[13px] sm:text-[18px] font-[500] text-[#777]"
-                  >
-                    All the Lorem Ipsum generators on to Internet tend to repeat
-                  </p>
-                  <button
-                    class="mt-3 rounded-full bg-[#fbb200] sm:px-5 px-2.5 uppercase py-1.5 sm:py-3 text-white"
-                  >
-                    <i
-                      class="fa-brands hover:text-[#f22e3e] sm:text-[24px] text-[16px] cursor-pointer fa-opencart"
-                    ></i>
-                    <span class="ps-1.5 text-[13px] font-semibold"
-                      >Order Now</span
-                    >
-                  </button>
+              <div class="sm:w-[80%] w-[90%]">
+                <img
+                  src="images/popolarDishes/pizza-1.png"
+                  class="w-full"
+                  alt=""
+                />
+                <div
+                  class="flex sm:text-[22px] text-[16px] sm:mt-4 mt-2 font-semibold justify-between"
+                >
+                  <h5 class="text-[#111111]">Shrimp Pizza</h5>
+                  <h5 class="text-[#f22e3e]">$35.00</h5>
                 </div>
-              </swiper-slide>
-              <swiper-slide
-                class="border-2 rounded-xl sm:rounded-3xl cursor-pointer flex items-center py-5 sm:py-10 flex-col"
-              >
-                <div class="sm:w-[80%] w-[90%]">
-                  <img
-                    src="images/popolarDishes/pizza-2.png"
-                    class="w-full"
-                    alt=""
-                  />
-                  <div
-                    class="flex sm:text-[22px] text-[16px] sm:mt-4 mt-2 font-semibold justify-between"
-                  >
-                    <h5 class="text-[#111111]">Seafood Pizza</h5>
-                    <h5 class="text-[#f22e3e]">$65.00</h5>
-                  </div>
-                  <div class="sm:my-4 my-2">
-                    <i class="fa-solid fa-star text-[#fbb200] text-[14px]"></i>
-                    <i class="fa-solid fa-star text-[#fbb200] text-[14px]"></i>
-                    <i class="fa-solid fa-star text-[#fbb200] text-[14px]"></i>
-                    <i class="fa-solid fa-star text-[#fbb200] text-[14px]"></i>
-                    <i class="fa-solid fa-star text-[#fbb200] text-[14px]"></i>
-                  </div>
-                  <p
-                    class="text-left text-[13px] sm:text-[18px] font-[500] text-[#777]"
-                  >
-                    All the Lorem Ipsum generators on to Internet tend to repeat
-                  </p>
-                  <button
-                    class="mt-3 rounded-full bg-[#fbb200] sm:px-5 px-2.5 uppercase py-1.5 sm:py-3 text-white"
-                  >
-                    <i
-                      class="fa-brands hover:text-[#f22e3e] sm:text-[24px] text-[16px] cursor-pointer fa-opencart"
-                    ></i>
-                    <span class="ps-1.5 text-[13px] font-semibold"
-                      >Order Now</span
-                    >
-                  </button>
+                <div class="sm:my-4 my-2">
+                  <i class="fa-solid fa-star text-[#fbb200] text-[14px]"></i>
+                  <i class="fa-solid fa-star text-[#fbb200] text-[14px]"></i>
+                  <i class="fa-solid fa-star text-[#fbb200] text-[14px]"></i>
+                  <i class="fa-solid fa-star text-[#fbb200] text-[14px]"></i>
+                  <i class="fa-solid fa-star text-[#fbb200] text-[14px]"></i>
                 </div>
-              </swiper-slide>
-              <swiper-slide
-                class="border-2 rounded-xl sm:rounded-3xl cursor-pointer flex items-center py-5 sm:py-10 flex-col"
-              >
-                <div class="sm:w-[80%] w-[90%]">
-                  <img
-                    src="images/popolarDishes/pizza-3.png"
-                    class="w-full"
-                    alt=""
-                  />
-                  <div
-                    class="flex sm:text-[22px] text-[16px] sm:mt-4 mt-2 font-semibold justify-between"
+                <p
+                  class="text-left text-[13px] sm:text-[18px] font-[500] text-[#777]"
+                >
+                  All the Lorem Ipsum generators on to Internet tend to repeat
+                </p>
+                <button
+                  class="mt-3 rounded-full bg-[#fbb200] sm:px-5 px-2.5 uppercase py-1.5 sm:py-3 text-white"
+                >
+                  <i
+                    class="fa-brands hover:text-[#f22e3e] sm:text-[24px] text-[16px] cursor-pointer fa-opencart"
+                  ></i>
+                  <span class="ps-1.5 text-[13px] font-semibold"
+                    >Order Now</span
                   >
-                    <h5 class="text-[#111111]">Cheese Pizza</h5>
-                    <h5 class="text-[#f22e3e]">$45.00</h5>
-                  </div>
-                  <div class="sm:my-4 my-2">
-                    <i class="fa-solid fa-star text-[#fbb200] text-[14px]"></i>
-                    <i class="fa-solid fa-star text-[#fbb200] text-[14px]"></i>
-                    <i class="fa-solid fa-star text-[#fbb200] text-[14px]"></i>
-                    <i class="fa-solid fa-star text-[#fbb200] text-[14px]"></i>
-                    <i class="fa-solid fa-star text-[#fbb200] text-[14px]"></i>
-                  </div>
-  
-                  <p
-                    class="text-left text-[13px] sm:text-[18px] font-[500] text-[#777]"
-                  >
-                    All the Lorem Ipsum generators on to Internet tend to repeat
-                  </p>
-                  <button
-                    class="mt-3 rounded-full bg-[#fbb200] sm:px-5 px-2.5 uppercase py-1.5 sm:py-3 text-white"
-                  >
-                    <i
-                      class="fa-brands hover:text-[#f22e3e] sm:text-[24px] text-[16px] cursor-pointer fa-opencart"
-                    ></i>
-                    <span class="ps-1.5 text-[13px] font-semibold"
-                      >Order Now</span
-                    >
-                  </button>
+                </button>
+              </div>
+            </swiper-slide>
+            <swiper-slide
+              class="border-2 rounded-xl sm:rounded-3xl cursor-pointer flex items-center py-5 sm:py-10 flex-col"
+            >
+              <div class="sm:w-[80%] w-[90%]">
+                <img
+                  src="images/popolarDishes/pizza-2.png"
+                  class="w-full"
+                  alt=""
+                />
+                <div
+                  class="flex sm:text-[22px] text-[16px] sm:mt-4 mt-2 font-semibold justify-between"
+                >
+                  <h5 class="text-[#111111]">Seafood Pizza</h5>
+                  <h5 class="text-[#f22e3e]">$65.00</h5>
                 </div>
-              </swiper-slide>
-              <swiper-slide
-                class="border-2 rounded-xl sm:rounded-3xl cursor-pointer flex items-center py-5 sm:py-10 flex-col"
-              >
-                <div class="sm:w-[80%] w-[90%]">
-                  <img
-                    src="images/popolarDishes/pizza-3.png"
-                    class="w-full"
-                    alt=""
-                  />
-                  <div
-                    class="flex sm:text-[22px] text-[16px] sm:mt-4 mt-2 font-semibold justify-between"
-                  >
-                    <h5 class="text-[#111111]">Cheese Pizza</h5>
-                    <h5 class="text-[#f22e3e]">$25.00</h5>
-                  </div>
-                  <div class="sm:my-4 my-2">
-                    <i class="fa-solid fa-star text-[#fbb200] text-[14px]"></i>
-                    <i class="fa-solid fa-star text-[#fbb200] text-[14px]"></i>
-                    <i class="fa-solid fa-star text-[#fbb200] text-[14px]"></i>
-                    <i class="fa-solid fa-star text-[#fbb200] text-[14px]"></i>
-                    <i class="fa-solid fa-star text-[#fbb200] text-[14px]"></i>
-                  </div>
-                  <p
-                    class="text-left text-[13px] sm:text-[18px] font-[500] text-[#777]"
-                  >
-                    All the Lorem Ipsum generators on to Internet tend to repeat
-                  </p>
-                  <button
-                    class="mt-3 rounded-full bg-[#fbb200] sm:px-5 px-2.5 uppercase py-1.5 sm:py-3 text-white"
-                  >
-                    <i
-                      class="fa-brands hover:text-[#f22e3e] sm:text-[24px] text-[16px] cursor-pointer fa-opencart"
-                    ></i>
-                    <span class="ps-1.5 text-[13px] font-semibold"
-                      >Order Now</span
-                    >
-                  </button>
+                <div class="sm:my-4 my-2">
+                  <i class="fa-solid fa-star text-[#fbb200] text-[14px]"></i>
+                  <i class="fa-solid fa-star text-[#fbb200] text-[14px]"></i>
+                  <i class="fa-solid fa-star text-[#fbb200] text-[14px]"></i>
+                  <i class="fa-solid fa-star text-[#fbb200] text-[14px]"></i>
+                  <i class="fa-solid fa-star text-[#fbb200] text-[14px]"></i>
                 </div>
-              </swiper-slide>
-            </swiper-container>
-          </div>
+                <p
+                  class="text-left text-[13px] sm:text-[18px] font-[500] text-[#777]"
+                >
+                  All the Lorem Ipsum generators on to Internet tend to repeat
+                </p>
+                <button
+                  class="mt-3 rounded-full bg-[#fbb200] sm:px-5 px-2.5 uppercase py-1.5 sm:py-3 text-white"
+                >
+                  <i
+                    class="fa-brands hover:text-[#f22e3e] sm:text-[24px] text-[16px] cursor-pointer fa-opencart"
+                  ></i>
+                  <span class="ps-1.5 text-[13px] font-semibold"
+                    >Order Now</span
+                  >
+                </button>
+              </div>
+            </swiper-slide>
+            <swiper-slide
+              class="border-2 rounded-xl sm:rounded-3xl cursor-pointer flex items-center py-5 sm:py-10 flex-col"
+            >
+              <div class="sm:w-[80%] w-[90%]">
+                <img
+                  src="images/popolarDishes/pizza-3.png"
+                  class="w-full"
+                  alt=""
+                />
+                <div
+                  class="flex sm:text-[22px] text-[16px] sm:mt-4 mt-2 font-semibold justify-between"
+                >
+                  <h5 class="text-[#111111]">Cheese Pizza</h5>
+                  <h5 class="text-[#f22e3e]">$45.00</h5>
+                </div>
+                <div class="sm:my-4 my-2">
+                  <i class="fa-solid fa-star text-[#fbb200] text-[14px]"></i>
+                  <i class="fa-solid fa-star text-[#fbb200] text-[14px]"></i>
+                  <i class="fa-solid fa-star text-[#fbb200] text-[14px]"></i>
+                  <i class="fa-solid fa-star text-[#fbb200] text-[14px]"></i>
+                  <i class="fa-solid fa-star text-[#fbb200] text-[14px]"></i>
+                </div>
+
+                <p
+                  class="text-left text-[13px] sm:text-[18px] font-[500] text-[#777]"
+                >
+                  All the Lorem Ipsum generators on to Internet tend to repeat
+                </p>
+                <button
+                  class="mt-3 rounded-full bg-[#fbb200] sm:px-5 px-2.5 uppercase py-1.5 sm:py-3 text-white"
+                >
+                  <i
+                    class="fa-brands hover:text-[#f22e3e] sm:text-[24px] text-[16px] cursor-pointer fa-opencart"
+                  ></i>
+                  <span class="ps-1.5 text-[13px] font-semibold"
+                    >Order Now</span
+                  >
+                </button>
+              </div>
+            </swiper-slide>
+            <swiper-slide
+              class="border-2 rounded-xl sm:rounded-3xl cursor-pointer flex items-center py-5 sm:py-10 flex-col"
+            >
+              <div class="sm:w-[80%] w-[90%]">
+                <img
+                  src="images/popolarDishes/pizza-3.png"
+                  class="w-full"
+                  alt=""
+                />
+                <div
+                  class="flex sm:text-[22px] text-[16px] sm:mt-4 mt-2 font-semibold justify-between"
+                >
+                  <h5 class="text-[#111111]">Cheese Pizza</h5>
+                  <h5 class="text-[#f22e3e]">$25.00</h5>
+                </div>
+                <div class="sm:my-4 my-2">
+                  <i class="fa-solid fa-star text-[#fbb200] text-[14px]"></i>
+                  <i class="fa-solid fa-star text-[#fbb200] text-[14px]"></i>
+                  <i class="fa-solid fa-star text-[#fbb200] text-[14px]"></i>
+                  <i class="fa-solid fa-star text-[#fbb200] text-[14px]"></i>
+                  <i class="fa-solid fa-star text-[#fbb200] text-[14px]"></i>
+                </div>
+                <p
+                  class="text-left text-[13px] sm:text-[18px] font-[500] text-[#777]"
+                >
+                  All the Lorem Ipsum generators on to Internet tend to repeat
+                </p>
+                <button
+                  class="mt-3 rounded-full bg-[#fbb200] sm:px-5 px-2.5 uppercase py-1.5 sm:py-3 text-white"
+                >
+                  <i
+                    class="fa-brands hover:text-[#f22e3e] sm:text-[24px] text-[16px] cursor-pointer fa-opencart"
+                  ></i>
+                  <span class="ps-1.5 text-[13px] font-semibold"
+                    >Order Now</span
+                  >
+                </button>
+              </div>
+            </swiper-slide>
+          </swiper-container>
+        </div>
       </div>
     </section>
     <!-- Popular Dishes End -->
     <!-- Our Story Start -->
-    <section class="w-full">
+    <section class="w-full mb-10">
       <div
-        class="w-[95%] mx-auto flex flex-col px-3 lg:px-0 lg:flex-row justify-between py-2"
+        class="w-[95%] mx-auto flex flex-col px-0 md:px-3 lg:px-0 lg:flex-row justify-between"
       >
         <div
-          class="w-full lg:w-[55%] p-8 lg:p-0 order-2 lg:order-1 flex justify-center items-center relative"
+          class="w-full lg:w-[55%] p-7 lg:p-0 order-2 lg:order-1 flex justify-center items-center relative"
         >
           <img src="images/ourStory/our-story.png" class="w-full" alt="" />
           <img
             src="images/ourStory/onion.png"
-            class="absolute bottom-[2%] z-[0] left-[2%]"
+            class="absolute bottom-[2%] lg:w-auto w-[70px] z-[0] left-[2%]"
             alt=""
           />
         </div>
-        <div class="w-full lg:w-[40%] mb-10 lg:mb-0 order-1 lg:order-2 px-2">
+        <div
+          class="w-full lg:w-[40%] mb-2 sm:mb-10 lg:mb-0 order-1 lg:order-2 px-2"
+        >
           <div class="flex gap-4 py-2.5 justify-start items-center">
             <h4 class="text-[22px] text-[#f22e3e] font-semibold">Our Story</h4>
             <div class="border py-0 px-10 border-[#f22e3e]"></div>
           </div>
-          <h1 class="text-[40px] my-3 lg:my-4 font-bold">
+          <h1 class="text-[25px] lg:text-[40px] my-3 lg:my-4 font-bold">
             The Pizzon Has Excellent Of Quality Foods
           </h1>
-          <p class="text-[18px] mb-10 text-[#777777] font-[500] leading-[32px]">
+          <p
+            class="text-[15px] lg:text-[18px] mb-4 sm:mb-10 text-[#777777] font-[500] leading-[22px] lg:leading-[32px]"
+          >
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type
@@ -745,7 +755,7 @@
           <button>
             <a
               href="About.html"
-              class="flex justify-center gap-1.5 rounded-full text-white text-[20px] font-semibold px-7 py-3.5 uppercase bg-[#fbb200] items-center"
+              class="flex justify-center gap-1.5 rounded-full text-white text-[16px] lg:text-[20px] font-semibold px-7 py-3.5 uppercase bg-[#fbb200] duration-300 hover:bg-[#f22e3e] items-center"
             >
               <span>Read More</span><i class="fa-solid fa-chevron-right"></i>
             </a>
