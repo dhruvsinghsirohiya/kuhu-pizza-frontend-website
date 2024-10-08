@@ -6,7 +6,7 @@ const menuClose = document.getElementById("menu-close");
 const searchOpen = document.getElementById("search-open");
 const searchClose = document.getElementById("search-close");
 const searchTrigger = document.getElementById("search-trigger");
-
+const contactForm = document.getElementById("contactForm");
 const handleScroll = () => {
   if (window.scrollY > 1) {
     navLogo.classList.remove("w-[140px]");
@@ -51,4 +51,26 @@ searchClose.addEventListener("click", () => {
     searchTrigger.classList.remove("block");
     searchTrigger.classList.add("hidden");
   }, 1000);
+});
+
+contactForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+  const name = e.target.name.value;
+  const email = e.target.email.value;
+  const phone = e.target.phone.value;
+  const time = e.target.time.value;
+  const date = e.target.date.value;
+  const guest = e.target.guest.value;
+  if (
+    name === "" &&
+    email === "" &&
+    phone === "" &&
+    time === "" &&
+    date === "" &&
+    guest === ""
+  ) {
+    alert("Please Enter All Field");
+  } else {
+    alert("Form Sumbitted Successfully");
+  }
 });
